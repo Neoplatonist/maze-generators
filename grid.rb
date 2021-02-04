@@ -3,7 +3,7 @@ require 'cell'
 class Grid
     attr_reader :rows, :columns
 
-    def initialize(row, columns)
+    def initialize(rows, columns)
         @rows = rows
         @columns = columns
         @grid = prepare_grid
